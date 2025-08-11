@@ -1,0 +1,28 @@
+body{
+    background-image: url("FONDO2.jpg");
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+    justify-items: center;
+
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+h1{
+   font-family: Copperplate;
+   font-style: italic;
+}
+
+img{
+height: 150px;
+border-style: double;
+}
