@@ -1,0 +1,89 @@
+body {
+    background-color: #d3a698;
+}
+
+.header {
+    border: 2px solid #965959;
+    padding: 15px;
+}
+
+.Circulo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+    display: flex;
+    
+}
+
+p{
+    display: flex;
+    justify-content: flex-end;
+}
+
+section{
+    border: 2px solid beige;
+}
+
+main {
+    border: 2px solid #a2122f;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+
+    column-gap: 10px;
+    row-gap: 15px;
+
+}
+
+.Cuadro1 {
+    border: 2px solid black;
+    height: 300px;
+}
+
+.Cuadro2 {
+    border: 2px solid black;
+    height: 200px;
+}
+
+.Cuadro3 {
+    border: 2px solid black;
+    height: 300px;
+}
+
+.Cuadro4 {
+    border: 2px solid black;
+    height: 200px;
+
+}
+
+.Cuadro5 {
+    border: 2px solid black;
+
+}
+
+.Cuadro6 {
+    border: 2px solid black;
+   
+}
+
+.Cuadro7 {
+    border: 2px solid black;
+    
+}
+
+.Cuadro8 {
+    border: 2px solid black;
+    
+}
+
+.footer {
+    border: 2px solid #885f53;
+    padding: 25px;
+
+    display: flex;
+    justify-content: space-between;
+}
